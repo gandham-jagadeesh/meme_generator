@@ -1,3 +1,4 @@
-.pics_sizer{
-    border-radius:2px solid aquamarine;
-}
+img {
+        max-width: 100%;
+        height: auto;
+    }

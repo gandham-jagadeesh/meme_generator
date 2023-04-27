@@ -7,7 +7,7 @@ export function Memes(){
  const [data,setData] = useState("");
  const fetch_api = async (e)=>{
    e.preventDefault();
-    const data  = await fetch("https://meme-api.com/gimme");
+    const data  = await fetch("https://meme-api.com/gimme/Ni_Bondha");
     const realdata = await data.json();
     setData(realdata);
  }
